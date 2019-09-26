@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="249.0" prefWidth="329.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tacho.view.AddDateController">
+   <children>
+      <TextField fx:id="dateDriver" layoutX="90.0" layoutY="100.0" />
+      <Label layoutX="73.0" layoutY="59.0" text="Вы выбрали водителя:" />
+      <Label fx:id="nameDriverLabel" layoutX="211.0" layoutY="59.0" />
+      <Button layoutX="73.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleOk" text="Ok" />
+      <Button layoutX="203.0" layoutY="168.0" mnemonicParsing="false" text="Cancel" />
+   </children>
+</AnchorPane>
